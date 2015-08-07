@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.73.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,47 +14,52 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 55ac697642a18dd7d974736a3d06fd531aa82382 .travis.yml
-SHA1 7543ff362cb840d01e1cecbc168dc6333bb58f3c Changes
-SHA1 2a5cec17dfcf1dd4e56a17f552b76816dd14e470 INSTALL
+SHA1 007d9eadef38d89600c372861a631e950cadab7e .travis.yml
+SHA1 e1d8f1f22ac3384fae5522e62dc7a5c4b2b9c0a5 Changes
 SHA1 2ae407c2b0ef32edaf34a75d367122b8a2e63e33 LICENSE
-SHA1 1f710a48428ef0db17e3d61fed5544dd7c5403a6 MANIFEST
-SHA1 172dafdb18ee72a3937a7d3dfdbf470a7b9e7047 META.json
-SHA1 a05472ccc90c1b71fc353f6c420bd28e64ab8e8f META.yml
-SHA1 35b27172d381b37dc529f7aa9ae5e90f60ea1973 Makefile.PL
-SHA1 45faca9342a6a5befe207b9cb6572e4929459fe0 README
-SHA1 b0fe4b37ab2460ee3309c21c46ac15e811ea5fed cpanfile
-SHA1 53e0a09e5065ff5cb5c1c8973191b707e5f3241b dist.ini
-SHA1 29d003082ddb4bfeec7b659298ff80e2557c2151 lib/PerlIO/via/GnuPG.pm
-SHA1 abce9769b47a263a3daf5d9543567ced39f3bf3e lib/PerlIO/via/GnuPG/Maybe.pm
+SHA1 65e115f836f0ab0296db8e1ad70f0561f7511481 MANIFEST
+SHA1 61220b577be070a6c2cc0d6f2ee4113ba9e5393c META.json
+SHA1 7002f2b05f1e2b057f4553b14bf4ab6db43d9e82 META.yml
+SHA1 abd6649afb83e56d8864ff2a161ccf24bab89fa0 Makefile.PL
+SHA1 dfb2dd7a29fba926f278a5b362779f8db87f0bde README
+SHA1 37eabdb28b66e202e5a959a679ec740b30d02da4 cpanfile
+SHA1 473b5713bd69fb16017d236dde18b9d9f6215cc1 dist.ini
+SHA1 e1c07f7469785fa5233bbe54ca146f099f4549d4 lib/PerlIO/via/GnuPG.pm
+SHA1 d385ccede98c7a5c8f2013d61dac06f17a52d3ab lib/PerlIO/via/GnuPG/Maybe.pm
 SHA1 c522c3928158e64bd97d34d20cbfe0b5305a7eb2 t/00-check-deps.t
-SHA1 c28031c797710766ba34a0cff71796446cc79858 t/00-compile.t
-SHA1 ccd943a2bfc2f435ecc66d34969daf5befc63327 t/000-report-versions-tiny.t
-SHA1 791e94b14f396268f92fc3371f0bc526be05f451 t/basic.t
+SHA1 94f00de7e3cc97590a7fc99651077e29c197cd0f t/00-compile.t
+SHA1 8983b7dca54055a7ff3d20a500a088c0a5842ee9 t/00-report-prereqs.dd
+SHA1 2f57ed6c3bb3a5eb32817fdc3e41427eac497317 t/00-report-prereqs.t
+SHA1 d439d39f89f684aafdf9bff1e354beadd75abb05 t/basic.t
 SHA1 0108713ba0ac102c429f478a8a48807e71a9be84 t/gpghome/pubring.gpg
-SHA1 182bb5080b7776cab6826e5b0ddbb332ea6ba5d7 t/gpghome/random_seed
 SHA1 e8a3681b0d173d8c5da3964d2b301d732353f3cd t/gpghome/secring.gpg
 SHA1 ff8d30bb9d5c9dcd6f7bd42c4a78c4e3f1db57aa t/gpghome/trustdb.gpg
 SHA1 2e95bc585ee8c852a8faea15c884649019d64bb1 t/input.txt
 SHA1 3dc4251e692ebff992b81577598c3ff225785413 t/input.txt.asc
-SHA1 cebc3dac71f4995a71276b30b54d1d03bbbd8a5a xt/author/pod-spell.t
+SHA1 8cdb6a2900e8c64d3f907a87a7cbcb73f73aaa7e xt/author/eol.t
+SHA1 44728c637f299cd0e5a882d44c0dee9a32a7793d xt/author/no-tabs.t
+SHA1 de8a68869344e8fcee9a19eab6074d5701f605f3 xt/author/pod-spell.t
 SHA1 a7948d34cfaad400286ea5d5fa6206c4c7e2552c xt/release/consistent-version.t
-SHA1 b3915eaac65e18e6a048b34a4b873beccab326b4 xt/release/eol.t
 SHA1 bd0a39985c33a12888ba0eae205b0db40a3a149d xt/release/has-version.t
-SHA1 dae0cead5a922b1e268208ee0967f5d2e7836a0d xt/release/minimum-version.t
-SHA1 d388f738f96fefa167aa0123c987d386aa0012f8 xt/release/no-smart-comments.t
-SHA1 6d35a906db92864bea9911b93d288811456313a8 xt/release/no-tabs.t
+SHA1 c45158515b6dcebf2d444e1bfca0de2e6b2dd7f2 xt/release/minimum-version.t
+SHA1 41e7c7dee6aa875d96c8b418d3a8dfebd511fe71 xt/release/no-smart-comments.t
 SHA1 5b68a22fc3a78d5522364fa4ba6a0a3cc64e2dad xt/release/pod-coverage.t
 SHA1 6722cb24f205c3c687ef92c507e3b9644694fd49 xt/release/pod-linkcheck.t
 SHA1 8e96c79db5787e21b4511a02563c2ff936187e97 xt/release/pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.14 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJTTFQdAAoJEOd5N1CvIgQk4xEIAJjSYUimxFB1cEakUqbrl3Tc
-h5pD10eEVJfE1cCB6RBoMzA1rg5xtkpNu/qNhku6YL9HdakhGvIxjsTcgL5WhJI9
-XYsFJESNm4AEgAeaYtn/Wd3feUIRtNCyuQ1hs7lJTrcGpjfRJnvRTr+EQojqzAvz
-qjaOM38H0ep7ZmjFxt7mei6aisBMx+DMS1TC4PlzJerA8SaSC1pq7OI+vkTpFEkv
-e68bHF3b8xkun1pIpkVVuobV2tpuf4bahk1qSYj07Gi0TgDXl7qZaxfMu7XuLXH3
-N3jLSyvyzNWM8+IiVeTWPKMUWjR2ml0AxZhF2gGD3e9Ch0mR0RT1ciQ4ZciuwfI=
-=Tt6O
+iQIcBAEBAgAGBQJVxTF5AAoJEJ/Rlq0N/NXWbH8P/j57dJ7azhf0vMenczI3jmmB
+Wlr7qWco9HK3Tvi4hYlgaqnyLwzWRCUlrnzKy3lfEcwevHb+5g+qx+0pUJhexGvO
+jWTmUIoRQG9dfUTC8hWneFo3D2VK1+Tbzj8n+t9pgXWzUWbRcpqBllWiapXmMPVN
+4kg3MHAWZzoDV4egIiba/EydCFhHVEgOrM2rguSTSYm4GhYLV9yPevtcpnSMHqvD
+ZINe/hjCf+rQW9E4bIkRQFac2H5UB4Xo5yqBCEuBBvevMScGC9BUpRev0bPd6LXk
+jAUiZB9ET8r4cy/RUg3cP73qd15aMa5D8hhxUUaPyuVvqDvuh6uIpsfj0suEg/pw
+UE/UxgCZLuWe0GiEP7vqBoCSnpkZV9iaRPedEXF76HculZx9vtUfYYU6iV3xJ9ka
+/pmnnCES092eVK6tUZfX3/5wI23aLNmYvK+Pn36Jk9RlSbOYTKgihRmHO7YyLJ4T
+NEQw3JAgVVhTXkEgTgsuLJ8Pxn7YzrZGL0r3iWW5h1n9rmtdlLxMh2ZCyKHBLdQr
+1kyNFO4Knfi/dz4/Xk8qotTa7cJ0yq7rJj2T11XNih1EW9WvHBAZcc7bMeDRCvHa
+KNisfei/h4gdpqbQ+nS2BNGYpu2X78nK10eDY8RtIoUd1U2/HnSqXdCUxE37u6Xw
+4vlov3nrr3JbUTTM4+T/
+=47Zh
 -----END PGP SIGNATURE-----
