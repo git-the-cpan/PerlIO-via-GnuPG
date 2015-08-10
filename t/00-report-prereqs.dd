@@ -1,6 +1,7 @@
 do { my $x = {
        'configure' => {
                         'requires' => {
+                                        'Devel::CheckBin' => '0',
                                         'ExtUtils::MakeMaker' => '0',
                                         'perl' => 'v5.14.0'
                                       }
@@ -9,6 +10,7 @@ do { my $x = {
                       'requires' => {
                                       'Dist::Zilla::PluginBundle::RSRCHBOY' => '0.066',
                                       'Pod::Coverage::TrustPod' => '0',
+                                      'Pod::Wordlist' => '0',
                                       'Test::EOL' => '0',
                                       'Test::More' => '0.88',
                                       'Test::NoTabs' => '0',

@@ -9,8 +9,8 @@
 #
 package PerlIO::via::GnuPG;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.004-13-g1325a5a
-$PerlIO::via::GnuPG::VERSION = '0.005';
+# git description: 0.005-1-gdb3e32f
+$PerlIO::via::GnuPG::VERSION = '0.006';
 
 # ABSTRACT: Layer to try to decrypt on read
 
@@ -120,7 +120,7 @@ PerlIO::via::GnuPG - Layer to try to decrypt on read
 
 =head1 VERSION
 
-This document describes version 0.005 of PerlIO::via::GnuPG - released August 07, 2015 as part of PerlIO-via-GnuPG.
+This document describes version 0.006 of PerlIO::via::GnuPG - released August 10, 2015 as part of PerlIO-via-GnuPG.
 
 =head1 SYNOPSIS
 
